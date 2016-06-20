@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!DOCTYPE jupgrade>
+<jupgrade>
+	<name>JCE for Joomla 1.7</name>
+
+	<!-- The folders to copy to the new site. -->
+	<folders>
+		<folder>media/jce</folder>
+	</folders>
+
+	<!-- The categories to copy to the new site. -->
+	<!--
+	<categories>
+		<category section="com_jce"></category>
+	</categories>
+	-->
+</jupgrade>

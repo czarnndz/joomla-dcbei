@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+<name>HOT Newsflash</name> 
+<author>HotJoomlaTemplates.com</author> 
+<creationDate>2009-10-06</creationDate> 
+<copyright>Copyright 2010 by ArhiNet d.o.o.</copyright>
+<license>GNU General Public License version 2 or later</license>
+<authorEmail>info@hotjoomlatemplates.com</authorEmail> 
+<authorUrl>http://www.hotjoomlatemplates.com</authorUrl> 
+<version>1.5.25</version> 
+<description>Hot Newsflash - Free module from HotJoomlaTemplates.com</description>
+<files>
+	<filename module="mod_hot_newsflash">mod_hot_newsflash.php</filename>
+	<filename>index.html</filename>
+	<folder>images</folder>
+	<folder>js</folder>
+	<folder>tmpl</folder>
+</files>
+<languages>
+	<language tag="en-GB">en-GB.mod_hot_newsflash.ini</language>
+</languages>
+<params>
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	<param name="enablejQuery" type="list" default="1" label="LABEL JQUERY" description="DESC JQUERY">
+		<option value="1">Enable</option>
+		<option value="0">Disable</option>
+	</param>
+	<param name="noConflictMode" type="list" default="0" label="LABEL NOCONFLICTMODE" description="DESC NOCONFLICTMODE">
+		<option value="1">Enable</option>
+		<option value="0">Disable</option>
+	</param>
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param type="spacer" default="Module Properties" />
+	<param name="moduleWidth" type="text" default="600" label="LABEL MODULE WIDTH" description="DESC MODULE WIDTH" />
+	<param name="moduleBackground" type="text" default="ffffff" label="LABEL BACKGROUND" description="DESC BACKGROUND" />
+	<param name="borderWidth" type="text" default="0" label="LABEL BORDER WIDTH" description="DESC BORDER WIDTH" />
+	<param name="borderColor" type="text" default="000000" label="LABEL BORDER COLOR" description="DESC BORDER COLOR" />
+	<param name="tabNumber" type="list" default="4" label="LABEL TAB NUMBER" description="DESC TAB NUMBER">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</param>
+	<param name="readMore" type="list" default="1" label="LABEL READ MORE" description="DESC READ MORE">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+	<param name="readMoreText" type="text" default="Full story" label="LABEL READ MORE TEXT" description="DESC READ MORE TEXT" />
+	<param name="speed" type="text" default="5000" label="LABEL SPEED" description="DESC SPEED" />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param type="spacer" default="Text Color" />
+	<param name="headingTextColor" type="text" default="000000" label="LABEL HEADING TEXT COLOR" description="DESC HEADING TEXT COLOR" />
+	<param name="mainTextColor" type="text" default="000000" label="LABEL TEXT COLOR" description="DESC TEXT COLOR" />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param type="spacer" default="Tabs Properties" />
+	<param name="tabWidth" type="text" default="150" label="LABEL TAB WIDTH" description="DESC TAB WIDTH" />
+	<param name="tabBgColor" type="text" default="ffffff" label="LABEL TAB BG COLOR" description="DESC TAB BG COLOR" />
+	<param name="tabBgColorHover" type="text" default="f2f2f2" label="LABEL TAB BG COLOR HOVER" description="DESC TAB BG COLOR HOVER" />
+	<param name="tabBgColorActive" type="text" default="000000" label="LABEL TAB BG COLOR ACTIVE" description="DESC TAB BG COLOR ACTIVE" />
+	<param name="tabFontColor" type="text" default="000000" label="LABEL TAB FONT COLOR" description="DESC TAB FONT COLOR" />
+	<param name="tabFontColorHover" type="text" default="000000" label="LABEL TAB FONT COLOR HOVER" description="DESC TAB FONT COLOR HOVER" />
+	<param name="tabFontColorActive" type="text" default="ffffff" label="LABEL TAB FONT COLOR ACTIVE" description="DESC TAB FONT COLOR ACTIVE" />
+	<param name="tabDelimiterColor" type="text" default="cccccc" label="LABEL TAB DELIMITER COLOR" description="DESC TAB DELIMITER COLOR" />
+	<param name="tabMultiline" type="list" default="1" label="LABEL TAB MULTILINE" description="DESC TAB MULTILINE">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+		
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param type="spacer" default="Images Properties" />
+	<param name="imageFolder" type="text" default="images/stories" label="LABEL FOLDER" description="DESC FOLDER" />
+	<param name="imageWidth" type="text" default="254" label="LABEL IMAGE WIDTH" description="DESC IMAGE WIDTH" />
+	<param name="imageHeight" type="text" default="169" label="LABEL IMAGE HEIGHT" description="DESC IMAGE HEIGHT" />
+	<param name="imageLink" type="list" default="1" label="LABEL IMAGE LINK" description="DESC IMAGE LINK">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+
+	<param type="spacer" default="Article 1" />
+	<param name="heading1" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+	<param name="link1" type="text" default="" label="LABEL LINK" description="DESC LINK" />
+	<param name="info1" type="textarea" cols="50" rows="4" default="" label="LABEL INFO" description="DESC INFO" />
+	<param name="image1" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+	<param type="spacer" default="Article 2" />
+	<param name="heading2" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+	<param name="link2" type="text" default="" label="LABEL LINK" description="DESC LINK" />
+	<param name="info2" type="textarea" cols="50" rows="4" default="" label="LABEL INFO" description="DESC INFO" />
+	<param name="image2" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param type="spacer" default="Article 3" />
+	<param name="heading3" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+	<param name="link3" type="text" default="" label="LABEL LINK" description="DESC LINK" />
+	<param name="info3" type="textarea" cols="50" rows="4" default="" label="LABEL INFO" description="DESC INFO" />
+	<param name="image3" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param type="spacer" default="Article 4" />
+	<param name="heading4" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+	<param name="link4" type="text" default="" label="LABEL LINK" description="DESC LINK" />
+	<param name="info4" type="textarea" cols="50" rows="4" default="" label="LABEL INFO" description="DESC INFO" />
+	<param name="image4" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+		
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param type="spacer" default="Article 5" />
+	<param name="heading5" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+	<param name="link5" type="text" default="" label="LABEL LINK" description="DESC LINK" />
+	<param name="info5" type="textarea" cols="50" rows="4" default="" label="LABEL INFO" description="DESC INFO" />
+	<param name="image5" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+
+</params>
+</install>

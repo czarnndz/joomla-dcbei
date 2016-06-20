@@ -1,0 +1,54 @@
+/*------------------------------------------------------------------------
+# "Hot Newsflash" Joomla module
+# Copyright (C) 2010 ArhiNet d.o.o. All Rights Reserved.
+# License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+# Author: HotJoomlaTemplates.com
+# Website: http://www.hotjoomlatemplates.com
+-------------------------------------------------------------------------*/
+
+#featured ul.ui-tabs-nav{ 
+	position:absolute;
+	top:0; right:0;
+	list-style:none; 
+	padding:0; margin:0;
+}
+
+#featured ul.ui-tabs-nav li { 
+	padding:0 !important;
+	margin:0 !important;
+	font-size:11px; 
+}
+
+#featured li.ui-tabs-nav-item a { 
+	display:block; 
+	padding-left:5px;
+	text-decoration:none;
+	overflow:hidden;
+	margin:0 -2px 0 -2px;
+	font-family:"Arial",Times New Roman, Times, serif;
+	font-size:13px; 
+}
+
+#featured .infotext { 
+	padding:2px 0px; margin:0 -2px;
+	overflow:hidden;
+	font-size:11px;
+	text-align:justify;
+}
+
+#featured .infotext a {
+	font-size:14px;
+	color:#1D6281;
+}
+
+#featured .infotext p {
+	overflow:hidden;
+}
+
+#featured .infotext a:hover{ 
+	text-decoration:none; 
+}
+
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
